@@ -22,4 +22,5 @@ def comment():
     return render_template('Ank_comm.html', messages=get_all_messages())
 
 if __name__ == '__main__':
+    delete_all_messages()
     app.run(debug=True)
