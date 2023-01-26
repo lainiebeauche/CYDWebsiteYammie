@@ -12,13 +12,14 @@ def home():
 def info():
     return render_template('Ank_info.html')
 
-@app.route('/comment', methods=['GET', 'POST'])
+@app.route('/comment', methods=['GET', 'POST', 'DELETE'])
 def comment():
     if request.method == "POST":
         text = request.form['text']
         username = request.form['username']
         add_message(username, text)
-        
+    elif: request.method == "DELETE"
+        delete_all_messages()
     return render_template('Ank_comm.html', messages=get_all_messages())
 
 if __name__ == '__main__':
