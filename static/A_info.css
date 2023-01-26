@@ -1,0 +1,46 @@
+html {
+    height:100%;
+}
+#flag { 
+    height:100% ;
+    background-image: url("background (3)(2)(1).jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {text-align: center; font-family: 'Lucida Calligraphy',
+    serif;color: darkgoldenrod;font-size: 26.5px;
+    font-style: oblique;}
+
+    /**h1 {  text-align: center; font-family: 'Lucida Calligraphy',
+ serif; color:darkgoldenrod ; font-size: 20px; }
+        h2{ font-family: 'Lucida Calligraphy', 
+    sans-serif ; color:darkgoldenrod; font-size: 50px}**/
+        p {
+    font-family: 'Lucida Calligraphy', sans-serif ; 
+    font-style:  italic ; color:goldenrod; font-size: 15px }
+    #ask{margin-left: 20%;margin-top: -8%}
+    
+    #MHD{margin-left: 37.5%;margin-top: -40px} 
+
+             p {
+    font-family: 'Lucida Calligraphy', sans-serif ; 
+    
+    font-style:  italic ; color:goldenrod; font-size: 25px}
+    #sym{margin-left: 28.5%}
+    h2{font-family: 'Lucida Calligraphy', sans-serif ; 
+    font-style:  italic ; color:ghostwhite; font-size: 15.5px}
+
+    
+    h3{font-family: 'Lucida Calligraphy', sans-serif ; 
+    font-style:  italic ; color:ghostwhite; font-size: 19.px}
+
+.links {
+    display: flex;
+}
+.links a{
+    color: ghostwhite;
+    text-decoration:  none; font-size: 24px;
+}
+.links a:hover{color: darkgoldenrod;}

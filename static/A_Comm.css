@@ -1,0 +1,55 @@
+html {
+    height:100%;
+}
+
+#messages {
+    background-color: ghostwhite;
+    color: blue;
+    font-family: 'Lucida Calligraphy'; 
+    sans-serif ;
+    font-size: 20px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#flag { 
+    height:100% ;
+    background-image: url("haitian-flag-large.png"); 
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+ #BLKmh {margin-left: 37.5%; margin-right:37.5%; margin-top: 6%}
+header {text-align: center; font-family: 'Lucida Calligraphy',
+    serif;color: darkgoldenrod;font-size: 29.5px;font-style: oblique;}
+
+    h1 {  text-align: center; font-family: 'Lucida Calligraphy',
+ serif; color:darkgoldenrod ; font-size: 20px; }
+        h2{ font-family: 'Lucida Calligraphy'; 
+    sans-serif ; color:ghostwhite; font-size:19.5px;text-align: center;margin-top: 1%}
+        p { font-family: 'Lucida Calligraphy', 
+    sans-serif ; color:darkgoldenrod; font-size:50px}
+             
+    
+//*button { text-align: center;
+    background-color:darkred; font-family: 'Lucida Calligraphy',;
+font-size:52px; 
+color:darkgoldenrod; 
+border-radius: 95px; border-color: darkgoldenrod; 
+**/
+
+.navBar{ 
+    display: flex; 
+    justify-content: space-between;
+margin-bottom: 15px;
+}
+
+.links {
+    display: flex;
+}
+.links a{
+    color: azure;
+    text-decoration:  none; font-size: 24px;
+}
+.links a:hover{color: darkgoldenrod;}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="../static/A_Comm.css" rel="stylesheet">
+		<link rel="stylesheet" href="{{ url_for('static', filename='A_Comm.css') }}">
+		<title>ANK | info</title>
+	</head>
+	
+		<body id= "flag">
+
+		{% include 'navbar.html' %}
+						
+		 <br>
+				<header> Add comment or Ask advice </header>	
+		<img id="BLKmh" src="{{ url_for('static', filename='blkMH.jpg') }}" width="365px" height="355px" class="center">
+
+	
+           <h2> <form action="{{ url_for('comment') }}" method="POST">
+
+                User
+                <input type="text"
+                       name="username">
+                <br />
+
+                Message text:
+                <textarea rows = "5" cols = "60" name = "text"></textarea><br>
+                <!-- <input type="text" name="text" placeholder="">
+                <br /> -->
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+        <br />
+        </h2>
+
+    <div id="messages">
+      All messages:
+
+        {% for message in messages %}
+        	<div>
+        		<ul>
+        			<li>
+                        User: {{ message.username }}
+                    </li>
+        			<li>
+                        Message: {{ message.text }}
+                    </li>
+        		</ul>
+        	</div>
+        {% endfor %}
+        <br>
+
+    </div>
+    <br>
+		<!--<button type= "button" onclick="location.href='Ank_comm.html'"> add comment or ask advice</button>-->
+		
+	</body>      
+</html>

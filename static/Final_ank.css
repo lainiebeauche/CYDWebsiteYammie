@@ -1,0 +1,46 @@
+html {
+    height:100%;
+}
+#flag  { 
+    height:100% ; 
+    background-image: url("haitian-flag-large.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+header {text-align: center; font-family: 'Lucida Calligraphy',
+    serif;color: darkgoldenrod;font-size: 57.8px;font-style: oblique;}
+
+    h1 {  text-align: center; font-family: 'Lucida Calligraphy',
+ serif; color:darkgoldenrod ; font-size: 21.6px; }
+
+
+        h2{ font-family: 'Lucida Calligraphy', 
+    sans-serif ; color:ghostwhite; font-size: 22px}
+        p {
+    font-family: IBM Plex Sans, sans-serif ; 
+    font-style:  italic ; color:#;font-size: 51px;}
+            
+             p {
+    font-family: 'Lucida Calligraphy', sans-serif ; 
+    font-style:  italic ; color:#navy;}
+    
+
+
+.navBar{ 
+    display: flex; 
+    justify-content: space-between;
+margin-bottom: 15px;
+}
+/**.navBar ul {
+    list-style-type: none;
+}**/
+.links {
+    display: flex;
+}
+.links a{
+    color: azure;
+    text-decoration:  none; font-size: 24px;
+}
+.links a:hover{color: darkgoldenrod;}
