@@ -18,10 +18,15 @@ def comment():
         text = request.form['text']
         username = request.form['username']
         add_message(username, text)
-    elif: request.method == "DELETE"
+    elif request.method == "DELETE":
         delete_all_messages()
     return render_template('Ank_comm.html', messages=get_all_messages())
 
-if __name__ == '__main__':
+
+@app.route('/delete')
+def delete_all():
     delete_all_messages()
+    return redirect(url_for('home'))
+
+if __name__ == '__main__':
     app.run(debug=True)
