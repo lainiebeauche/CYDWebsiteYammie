@@ -25,7 +25,7 @@ def comment():
 
 @app.route('/delete')
 def delete_all():
-    delete_all_messages()
+    delete_all_messages() ##sdf
     return redirect(url_for('home'))
 
 if __name__ == '__main__':
